@@ -1,16 +1,27 @@
-# React + Vite
+# EXP-10 Java OOP Concepts Implementation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Concepts Covered
+- Encapsulation
+- Inheritance
+- Abstraction
+- Classes and Objects
 
-Currently, two official plugins are available:
+## Files Included
+1. BankAccount.java
+2. SavingsAccount.java
+3. CurrentAccount.java
+4. Main.java
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Deposit money
+- Display account details
+- Calculate interest
+- Abstract class implementation
 
-## React Compiler
+## How to Run
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Compile
+javac *.java
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Run
+java Main
