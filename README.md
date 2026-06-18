@@ -1,27 +1,54 @@
-# EXP-10 Java OOP Concepts Implementation
-
-## Concepts Covered
-- Encapsulation
-- Inheritance
-- Abstraction
-- Classes and Objects
-
-## Files Included
-1. BankAccount.java
-2. SavingsAccount.java
-3. CurrentAccount.java
-4. Main.java
+# EXP-12 CRUD Operations using Spring Boot REST API
 
 ## Features
-- Deposit money
-- Display account details
-- Calculate interest
-- Abstract class implementation
+- Add Employee
+- Get All Employees
+- Get Employee By ID
+- Update Employee
+- Delete Employee
+
+## Technologies Used
+- Java
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- REST API
+
+## Project Structure
+- Controller Layer
+- Service Layer
+- Repository Layer
+- Entity Layer
+
+## API Endpoints
+
+### Add Employee
+POST /employees
+
+### Get All Employees
+GET /employees
+
+### Get Employee By ID
+GET /employees/{id}
+
+### Update Employee
+PUT /employees/{id}
+
+### Delete Employee
+DELETE /employees/{id}
 
 ## How to Run
 
-### Compile
-javac *.java
+### Step 1
+Create MySQL Database:
+employee_db
 
-### Run
-java Main
+### Step 2
+Update username and password in application.properties
+
+### Step 3
+Run the project:
+mvn spring-boot:run
+
+### Step 4
+Test APIs using Postman
